@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: video-generator
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "python main.py"
+    plan: free
